@@ -1,0 +1,27 @@
+#Title composizione
+Title : classical-reggae
+
+#Concetto Principale
+Head Concept Name : classical
+
+#Concetto Modificatore
+Modifier Concept Name : reggae
+
+
+
+
+
+T(modifier), Summery, 0.9
+T(modifier), Roots Reggae, 0.8735294117647059
+T(modifier), Earnest, 0.8558823529411764
+T(modifier), Earthy, 0.8117647058823529
+T(modifier), Rousing, 0.8029411764705883
+
+T(head), Sentimental, 0.9
+T(head), Confident, 0.9
+T(head), Classical Crossover, 0.8
+T(head), Melancholy, 0.8
+T(head), Sensual, 0.8
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.01617357631637551

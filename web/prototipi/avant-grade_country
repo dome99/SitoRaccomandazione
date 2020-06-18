@@ -1,0 +1,27 @@
+#Title composizione
+Title : avant-grade-country
+
+#Concetto Principale
+Head Concept Name : avant-grade
+
+#Concetto Modificatore
+Modifier Concept Name : country
+
+
+
+
+
+T(modifier), Traditional Country, 0.9
+T(modifier), Earthy, 0.890625
+T(modifier), Earnest, 0.8625
+T(modifier), Reflective, 0.84375
+T(modifier), Plaintive, 0.815625
+
+T(head), The Creative Side, 0.9
+T(head), Cerebral, 0.84
+T(head), Uncompromising, 0.78
+T(head), Provocative, 0.78
+T(head), Revolutionary, 0.78
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.016490842679663078

@@ -1,0 +1,28 @@
+#Title composizione
+Title : blues-avant-grade
+
+#Concetto Principale
+Head Concept Name : blues
+
+#Concetto Modificatore
+Modifier Concept Name : avant-grade
+
+head, Regional Blues
+
+
+
+
+T(modifier), The Creative Side, 0.9
+T(modifier), Cerebral, 0.84
+T(modifier), Uncompromising, 0.78
+T(modifier), Provocative, 0.78
+T(modifier), Revolutionary, 0.78
+
+T(head), Earthy, 0.8615384615384616
+T(head), Gritty, 0.8615384615384616
+T(head), Passionate, 0.8153846153846154
+T(head), Late Night, 0.8153846153846154
+T(head), Hanging Out, 0.7615384615384615
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.021448055391720847

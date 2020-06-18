@@ -1,0 +1,27 @@
+#Title composizione
+Title : avant-grade-latin
+
+#Concetto Principale
+Head Concept Name : avant-grade
+
+#Concetto Modificatore
+Modifier Concept Name : latin
+
+
+
+
+
+T(modifier), Rousing, 0.9
+T(modifier), Romantic, 0.9
+T(modifier), Latin Pop, 0.75
+T(modifier), Celebration, 0.75
+T(modifier), Yearning, 0.75
+
+T(head), The Creative Side, 0.9
+T(head), Cerebral, 0.84
+T(head), Uncompromising, 0.78
+T(head), Provocative, 0.78
+T(head), Revolutionary, 0.78
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.0361215855

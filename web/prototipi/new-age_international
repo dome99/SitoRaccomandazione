@@ -1,0 +1,27 @@
+#Title composizione
+Title : new-age-international
+
+#Concetto Principale
+Head Concept Name : new-age
+
+#Concetto Modificatore
+Modifier Concept Name : international
+
+
+
+
+
+T(modifier), Stylish, 0.9
+T(modifier), Boisterous, 0.9
+T(modifier), Exuberant, 0.9
+T(modifier), Yearning, 0.9
+T(modifier), European Folk, 0.6
+
+T(head), Reflection, 0.9
+T(head), Soothing, 0.8892857142857142
+T(head), Introspection, 0.8892857142857142
+T(head), Hypnotic, 0.8785714285714286
+T(head), Reflective, 0.8785714285714286
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.0042689555708558995

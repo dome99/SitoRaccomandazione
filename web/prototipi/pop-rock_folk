@@ -1,0 +1,27 @@
+#Title composizione
+Title : pop-rock-folk
+
+#Concetto Principale
+Head Concept Name : pop-rock
+
+#Concetto Modificatore
+Modifier Concept Name : folk
+
+
+
+modifier, Earthy:                              0.9
+modifier, Poignant:                            0.8896551724137931
+modifier, Earnest:                             0.8896551724137931
+modifier, Bittersweet:                         0.8482758620689655
+modifier, Reflective:                          0.8172413793103448
+
+
+
+T(head), Rousing, 0.9
+T(head), Contemporary Pop/Rock, 0.8689655172413793
+T(head), Album Rock, 0.8172413793103448
+T(head), Confident, 0.8172413793103448
+T(head), Energetic, 0.8172413793103448
+
+
+Result : '1', '1', '0', '1', '1', 9.54604814211042

@@ -1,0 +1,39 @@
+#Title composizione
+Title : childrens-electronic
+
+#Concetto Principale
+Head Concept Name : childrens
+
+#Concetto Modificatore
+Modifier Concept Name : electronic
+
+head, Sing-Alongs
+head, Amiable/Good-Natured
+head, Cheerful
+head, Playful_mood
+head, Fun
+head, Hanging Out
+head, Playful
+head, -Sex
+head, -Brash
+head, -Cool & Cocky
+head, -Introspection
+head, -Sophisticated
+
+
+
+
+T(modifier), Hypnotic, 0.9
+T(modifier), Electronica, 0.8538461538461538
+T(modifier), Trippy, 0.8538461538461538
+T(modifier), Techno, 0.8307692307692307
+T(modifier), Late Night, 0.8192307692307692
+
+T(head), Children's Folk, 0.7857142857142857
+T(head), Family Gatherings, 0.7714285714285715
+T(head), Whimsical, 0.7571428571428571
+T(head), Laid-Back/Mellow, 0.7428571428571429
+T(head), Energetic, 0.7285714285714286
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.02999674802840395

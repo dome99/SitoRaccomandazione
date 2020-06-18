@@ -1,0 +1,27 @@
+#Title composizione
+Title : pop-rock-new-age
+
+#Concetto Principale
+Head Concept Name : pop-rock
+
+#Concetto Modificatore
+Modifier Concept Name : new-age
+
+
+
+
+
+T(modifier), Reflection, 0.9
+T(modifier), Soothing, 0.8892857142857142
+T(modifier), Introspection, 0.8892857142857142
+T(modifier), Hypnotic, 0.8785714285714286
+T(modifier), Reflective, 0.8785714285714286
+
+T(head), Rousing, 0.9
+T(head), Contemporary Pop/Rock, 0.8689655172413793
+T(head), Album Rock, 0.8172413793103448
+T(head), Confident, 0.8172413793103448
+T(head), Energetic, 0.8172413793103448
+
+
+Result : '1', '1', '1', '0', '1', '1', '0', '0', '0', '0', 0.00546619128825986

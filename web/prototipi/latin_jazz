@@ -1,0 +1,27 @@
+#Title composizione
+Title : latin-jazz
+
+#Concetto Principale
+Head Concept Name : latin
+
+#Concetto Modificatore
+Modifier Concept Name : jazz
+
+
+
+
+
+T(modifier), Sophisticated, 0.9
+T(modifier), Freewheeling, 0.8675675675675676
+T(modifier), Confident, 0.8432432432432433
+T(modifier), Amiable/Good-Natured, 0.8432432432432433
+T(modifier), Playful_mood, 0.8432432432432433
+
+T(head), Rousing, 0.9
+T(head), Romantic, 0.9
+T(head), Latin Pop, 0.75
+T(head), Celebration, 0.75
+T(head), Yearning, 0.75
+
+
+Result : '1', '1', '0', '0', '1', '1', '1', '0', '0', '0', 0.020476525738717208

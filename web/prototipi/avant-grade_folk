@@ -1,0 +1,27 @@
+#Title composizione
+Title : avant-grade-folk
+
+#Concetto Principale
+Head Concept Name : avant-grade
+
+#Concetto Modificatore
+Modifier Concept Name : folk
+
+
+
+modifier, Earthy:                              0.9
+modifier, Poignant:                            0.8896551724137931
+modifier, Earnest:                             0.8896551724137931
+modifier, Bittersweet:                         0.8482758620689655
+modifier, Reflective:                          0.8172413793103448
+
+
+
+T(head), The Creative Side, 0.9
+T(head), Cerebral, 0.84
+T(head), Uncompromising, 0.78
+T(head), Provocative, 0.78
+T(head), Revolutionary, 0.78
+
+
+Result : '1', '1', '0', '1', '1', 10.1189088

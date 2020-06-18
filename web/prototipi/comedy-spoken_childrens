@@ -1,0 +1,40 @@
+#Title composizione
+Title : comedy-spoken-childrens
+
+#Concetto Principale
+Head Concept Name : comedy-spoken
+
+#Concetto Modificatore
+Modifier Concept Name : childrens
+
+head, Comedy
+
+
+modifier, Sing-Alongs
+modifier, Amiable/Good-Natured
+modifier, Cheerful
+modifier, Playful_mood
+modifier, Fun
+modifier, Hanging Out
+modifier, Playful
+modifier, -Sex
+modifier, -Brash
+modifier, -Cool & Cocky
+modifier, -Introspection
+modifier, -Sophisticated
+
+
+T(modifier), Children's Folk, 0.7857142857142857
+T(modifier), Family Gatherings, 0.7714285714285715
+T(modifier), Whimsical, 0.7571428571428571
+T(modifier), Laid-Back/Mellow, 0.7428571428571429
+T(modifier), Energetic, 0.7285714285714286
+
+T(head), Playful_mood, 0.868421052631579
+T(head), Humorous, 0.8526315789473684
+T(head), Playful, 0.8526315789473684
+T(head), The Creative Side, 0.8368421052631579
+T(head), Irreverent, 0.8210526315789474
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.028779915164012296

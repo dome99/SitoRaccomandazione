@@ -1,0 +1,28 @@
+#Title composizione
+Title : blues-folk
+
+#Concetto Principale
+Head Concept Name : blues
+
+#Concetto Modificatore
+Modifier Concept Name : folk
+
+head, Regional Blues
+
+
+modifier, Earthy:                              0.9
+modifier, Poignant:                            0.8896551724137931
+modifier, Earnest:                             0.8896551724137931
+modifier, Bittersweet:                         0.8482758620689655
+modifier, Reflective:                          0.8172413793103448
+
+
+
+T(head), Earthy, 0.8615384615384616
+T(head), Gritty, 0.8615384615384616
+T(head), Passionate, 0.8153846153846154
+T(head), Late Night, 0.8153846153846154
+T(head), Hanging Out, 0.7615384615384615
+
+
+Result : '1', '1', '1', '1', '0', 11.76773034773077

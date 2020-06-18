@@ -1,0 +1,28 @@
+#Title composizione
+Title : avant-grade-rap
+
+#Concetto Principale
+Head Concept Name : avant-grade
+
+#Concetto Modificatore
+Modifier Concept Name : rap
+
+
+
+modifier, Brash
+
+
+T(modifier), Street-Smart, 0.864
+T(modifier), Confident, 0.8400000000000001
+T(modifier), Partying, 0.8400000000000001
+T(modifier), East Coast Rap, 0.804
+T(modifier), Swaggering, 0.804
+
+T(head), The Creative Side, 0.9
+T(head), Cerebral, 0.84
+T(head), Uncompromising, 0.78
+T(head), Provocative, 0.78
+T(head), Revolutionary, 0.78
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.018852732060861715
