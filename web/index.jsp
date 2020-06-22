@@ -27,8 +27,9 @@
   </head>
   <body>
   <%!
-      public String[] getFilesList(){
-          File folder = new File("C:\\Users\\domen\\Desktop\\AllMusic\\web\\cocos_genres");
+
+      public String[] getFilesList(String path){
+          File folder = new File(path + "/cocos_genres");
           File[] listOfFiles = folder.listFiles();
           String[] files= new String[19];
 
@@ -44,16 +45,17 @@
       }
   %>
   <%
+      String PROJECT_PATH = application.getRealPath("/").replace('\\', '/');
       String genereA = request.getParameter("genereA");
       String genereB = request.getParameter("genereB");
 
-      String[] files= getFilesList();
+      String[] files= getFilesList(PROJECT_PATH);
       String defaultOpt="<option value=\"\" selected disabled>Seleziona un valore</option>";
       String optionsA = defaultOpt;
       String optionsB = defaultOpt;
       for(String s: files){
-          optionsA += "<option value=\""+s+"\"" + (genereA!=null && genereA.equals(s)? "selected": "") + ">"+s.replace("-", " ")+"</option>";
-          optionsB += "<option value=\""+s+"\"" + (genereB!=null && genereB.equals(s)? "selected": "") + ">"+s.replace("-", " ")+"</option>";
+          optionsA += "<option value=\""+s+"\"" + (genereA!=null && genereA.equals(s)? "selected": "") + ">"+s.replace("-", " ").replace("r b", "r&b")+"</option>";
+          optionsB += "<option value=\""+s+"\"" + (genereB!=null && genereB.equals(s)? "selected": "") + ">"+s.replace("-", " ").replace("r b", "r&b")+"</option>";
       }
 
   %>
@@ -107,11 +109,11 @@
 
                         out.print("<div class=\"alert alert-primary\" role=\"alert\">" +
                                 "Risultati della combinazione tra <a class=\"alert-link\">" +
-                                prototipo.replace("-", " ").replace("_", " e ") + "</a> </div>");
+                                prototipo.replace("-", " ").replace("_", " e ").replace("r b", "r&b") + "</a> </div>");
 
 
-                        if(Files.exists(Paths.get("C:\\Users\\domen\\Desktop\\AllMusic\\web\\prototipi\\"+prototipo))){
-                            Recommender r = new Recommender(prototipo);
+                        if(Files.exists(Paths.get(PROJECT_PATH + "/prototipi/" + prototipo))){
+                            Recommender r = new Recommender(prototipo, PROJECT_PATH);
                             sortedGraduatoria = r.getGraduatoria();
 
                             List<String> app = new ArrayList<String>(sortedGraduatoria.keySet());
@@ -127,7 +129,7 @@
 
                                 int prop = Math.round((int)Math.round(sortedGraduatoria.get(app.get(i)) * 10 / max_score));
 
-                                String rating = sortedGraduatoria.get(app.get(i))+"";
+                                String rating = "";
                                 String star = "&#9733;";
                                 String emptyStar = "&#x2606;";
                                 for (int j = 0; j<10; j++){

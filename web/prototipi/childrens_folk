@@ -21,11 +21,11 @@ head, -Introspection
 head, -Sophisticated
 
 
-modifier, Earthy:                              0.9
-modifier, Poignant:                            0.8896551724137931
-modifier, Earnest:                             0.8896551724137931
-modifier, Bittersweet:                         0.8482758620689655
-modifier, Reflective:                          0.8172413793103448
+T(modifier), Earthy, 0.9
+T(modifier), Poignant, 0.8896551724137931
+T(modifier), Earnest, 0.8896551724137931
+T(modifier), Bittersweet, 0.8482758620689655
+T(modifier), Reflective, 0.8172413793103448
 
 
 
@@ -36,4 +36,4 @@ T(head), Laid-Back/Mellow, 0.7428571428571429
 T(head), Energetic, 0.7285714285714286
 
 
-Result : '1', '1', '1', '1', '0', 9.253351579698931
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.03361773163701924

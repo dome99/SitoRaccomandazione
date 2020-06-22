@@ -10,11 +10,11 @@ Modifier Concept Name : folk
 head, Regional Blues
 
 
-modifier, Earthy:                              0.9
-modifier, Poignant:                            0.8896551724137931
-modifier, Earnest:                             0.8896551724137931
-modifier, Bittersweet:                         0.8482758620689655
-modifier, Reflective:                          0.8172413793103448
+T(modifier), Earthy, 0.9
+T(modifier), Poignant, 0.8896551724137931
+T(modifier), Earnest, 0.8896551724137931
+T(modifier), Bittersweet, 0.8482758620689655
+T(modifier), Reflective, 0.8172413793103448
 
 
 
@@ -25,4 +25,4 @@ T(head), Late Night, 0.8153846153846154
 T(head), Hanging Out, 0.7615384615384615
 
 
-Result : '1', '1', '1', '1', '0', 11.76773034773077
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.011915765201658877

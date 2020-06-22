@@ -4,6 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -12,6 +13,8 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class Recommender {
+    private final String PROJECT_PATH;
+
     private String title;
     private String headConcept;
     private String modifierConcept;
@@ -28,12 +31,15 @@ public class Recommender {
 
     private int somma = 0;
 
-    public Recommender(String fileName){
+
+    public Recommender(String fileName, String path){
+        PROJECT_PATH = path;
+        System.out.println(PROJECT_PATH);
         readAttributes(fileName);
     }
 
     private void readAttributes(String fileName){
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\domen\\Desktop\\AllMusic\\web\\prototipi\\"+fileName))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(PROJECT_PATH + "/prototipi/"+fileName))) {
             String line;
             while ((line = br.readLine()) != null) {
                 line=line.strip();
@@ -81,7 +87,7 @@ public class Recommender {
     private void elaboraGraduatoria(){
         somma = 0;
         try {
-            JSONObject jsonObject = new JSONObject(Files.readString(Paths.get("C:\\Users\\domen\\Desktop\\AllMusic\\src\\data.txt"), StandardCharsets.US_ASCII));
+            JSONObject jsonObject = new JSONObject(Files.readString(Paths.get(PROJECT_PATH + "/WEB-INF/classes/data.txt"), StandardCharsets.US_ASCII));
             JSONArray songs = jsonObject.getJSONArray("songs");
             for (int i=0; i<songs.length(); i++){
                 somma += 1;
@@ -102,10 +108,8 @@ public class Recommender {
                         }
                     }
 
-                    if(Files.exists(Paths.get("C:\\Users\\domen\\Desktop\\AllMusic\\src\\songs\\" +
-                            fileName.replace("!-!-!", "-") + ".txt"))){
-                        try (BufferedReader br = new BufferedReader(new FileReader(
-                                "C:\\Users\\domen\\Desktop\\AllMusic\\src\\songs\\" +
+                    if(Files.exists(Paths.get(PROJECT_PATH + "/WEB-INF/classes/songs/" + fileName.replace("!-!-!", "-") + ".txt"))){
+                        try (BufferedReader br = new BufferedReader(new FileReader(PROJECT_PATH + "/WEB-INF/classes/songs/" +
                                 fileName.replace("!-!-!", "-") + ".txt"))) {
                             String line;
                             while ((line = br.readLine()) != null) {
