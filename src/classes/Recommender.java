@@ -140,7 +140,7 @@ public class Recommender {
             sortedGraduatoria = sortHashMapByValues(graduatoria);
         } catch (IOException e) {
             e.printStackTrace();
-        };
+        }
 
     }
 
