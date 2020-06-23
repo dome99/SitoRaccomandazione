@@ -118,7 +118,7 @@
 
                             List<String> app = new ArrayList<String>(sortedGraduatoria.keySet());
                             int i=0;
-                            int max_score = (int) Math.round(sortedGraduatoria.get(app.get(0)));
+                            double max_score = sortedGraduatoria.get(app.get(0));
                             for(i=0; i<app.size() && !(i >= r.getMAX()) && !(sortedGraduatoria.get(app.get(i))==0.0); i++){
                                 table += "<tr><th scope=\"row\">" + (i+1) + "</th>";
 
@@ -127,7 +127,8 @@
 
                                 table += "<td>" + (nameAndArtist.length==2? nameAndArtist[1].replace(" _", ","): "N/A") + "</td>";
 
-                                int prop = Math.round((int)Math.round(sortedGraduatoria.get(app.get(i)) * 10 / max_score));
+                                double value = sortedGraduatoria.get(app.get(i));
+                                int prop = (int) Math.round(value * 10 / max_score);
 
                                 String rating = "";
                                 String star = "&#9733;";
