@@ -1,0 +1,24 @@
+#Title composizione
+Title : folk-jazz
+
+#Concetto Principale
+Head Concept Name : folk
+
+#Concetto Modificatore
+Modifier Concept Name : jazz
+
+T(modifier), Sophisticated, 0.9
+T(modifier), Freewheeling, 0.8675675675675676
+T(modifier), Confident, 0.8432432432432433
+T(modifier), Amiable/Good-Natured, 0.8432432432432433
+T(modifier), Playful_mood, 0.8432432432432433
+
+T(head), Earthy, 0.9
+T(head), Poignant, 0.8896551724137931
+T(head), Earnest, 0.8896551724137931
+T(head), Bittersweet, 0.8482758620689655
+T(head), Reflective, 0.8172413793103448
+
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.0059407749704026595

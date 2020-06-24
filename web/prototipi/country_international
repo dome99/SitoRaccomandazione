@@ -1,0 +1,24 @@
+#Title composizione
+Title : country-international
+
+#Concetto Principale
+Head Concept Name : country
+
+#Concetto Modificatore
+Modifier Concept Name : international
+
+
+T(modifier), Stylish, 0.9
+T(modifier), Boisterous, 0.9
+T(modifier), Exuberant, 0.9
+T(modifier), Yearning, 0.9
+T(modifier), European Folk, 0.6
+
+T(head), Traditional Country, 0.9
+T(head), Earthy, 0.890625
+T(head), Earnest, 0.8625
+T(head), Reflective, 0.84375
+T(head), Plaintive, 0.815625
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.01023329189300537

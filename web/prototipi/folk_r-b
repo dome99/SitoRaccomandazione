@@ -1,0 +1,24 @@
+#Title composizione
+Title : folk-r-b
+
+#Concetto Principale
+Head Concept Name : folk
+
+#Concetto Modificatore
+Modifier Concept Name : r-b
+
+T(modifier), Soul, 0.9
+T(modifier), Playful_mood, 0.855
+T(modifier), Energetic, 0.855
+T(modifier), Partying, 0.855
+T(modifier), Warm, 0.855
+
+T(head), Earthy, 0.9
+T(head), Poignant, 0.8896551724137931
+T(head), Earnest, 0.8896551724137931
+T(head), Bittersweet, 0.8482758620689655
+T(head), Reflective, 0.8172413793103448
+
+
+
+Result : '1', '0', '0', '0', '1', '1', '1', '1', '0', '0', 0.004633734077689657

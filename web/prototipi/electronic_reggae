@@ -1,0 +1,27 @@
+#Title composizione
+Title : electronic-reggae
+
+#Concetto Principale
+Head Concept Name : electronic
+
+#Concetto Modificatore
+Modifier Concept Name : reggae
+
+
+
+
+
+T(modifier), Summery, 0.9
+T(modifier), Roots Reggae, 0.8735294117647059
+T(modifier), Earnest, 0.8558823529411764
+T(modifier), Earthy, 0.8117647058823529
+T(modifier), Rousing, 0.8029411764705883
+
+T(head), Hypnotic, 0.9
+T(head), Electronica, 0.8538461538461538
+T(head), Trippy, 0.8538461538461538
+T(head), Techno, 0.8307692307692307
+T(head), Late Night, 0.8192307692307692
+
+
+Result : '1', '1', '1', '0', '0', '1', '0', '1', '0', '0', 0.008575654572323278

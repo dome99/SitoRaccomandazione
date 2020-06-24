@@ -1,0 +1,27 @@
+#Title composizione
+Title : stage-screen-pop-rock
+
+#Concetto Principale
+Head Concept Name : stage-screen
+
+#Concetto Modificatore
+Modifier Concept Name : pop-rock
+
+
+
+
+
+T(modifier), Rousing, 0.9
+T(modifier), Contemporary Pop/Rock, 0.8689655172413793
+T(modifier), Album Rock, 0.8172413793103448
+T(modifier), Confident, 0.8172413793103448
+T(modifier), Energetic, 0.8172413793103448
+
+T(head), Soundtracks, 0.9
+T(head), Dramatic, 0.875
+T(head), Original Score, 0.8500000000000001
+T(head), Theatrical, 0.825
+T(head), Film Music, 0.7999999999999999
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.011184490370924016

@@ -1,0 +1,28 @@
+#Title composizione
+Title : blues-jazz
+
+#Concetto Principale
+Head Concept Name : blues
+
+#Concetto Modificatore
+Modifier Concept Name : jazz
+
+head, Regional Blues
+
+
+
+
+T(modifier), Sophisticated, 0.9
+T(modifier), Freewheeling, 0.8675675675675676
+T(modifier), Confident, 0.8432432432432433
+T(modifier), Amiable/Good-Natured, 0.8432432432432433
+T(modifier), Playful_mood, 0.8432432432432433
+
+T(head), Earthy, 0.8615384615384616
+T(head), Gritty, 0.8615384615384616
+T(head), Passionate, 0.8153846153846154
+T(head), Late Night, 0.8153846153846154
+T(head), Hanging Out, 0.7615384615384615
+
+
+Result : '1', '1', '0', '0', '1', '1', '1', '0', '0', '0', 0.009760109447886989

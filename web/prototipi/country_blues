@@ -1,0 +1,28 @@
+#Title composizione
+Title : country-blues
+
+#Concetto Principale
+Head Concept Name : country
+
+#Concetto Modificatore
+Modifier Concept Name : blues
+
+
+
+modifier, Regional Blues
+
+
+T(modifier), Earthy, 0.8615384615384616
+T(modifier), Gritty, 0.8615384615384616
+T(modifier), Passionate, 0.8153846153846154
+T(modifier), Late Night, 0.8153846153846154
+T(modifier), Hanging Out, 0.7615384615384615
+
+T(head), Traditional Country, 0.9
+T(head), Earthy, 0.890625
+T(head), Earnest, 0.8625
+T(head), Reflective, 0.84375
+T(head), Plaintive, 0.815625
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.012014951312457414

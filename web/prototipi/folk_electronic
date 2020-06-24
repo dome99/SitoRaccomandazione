@@ -1,0 +1,24 @@
+#Title composizione
+Title : folk-electronic
+
+#Concetto Principale
+Head Concept Name : folk
+
+#Concetto Modificatore
+Modifier Concept Name : electronic
+
+T(modifier), Hypnotic, 0.9
+T(modifier), Electronica, 0.8538461538461538
+T(modifier), Trippy, 0.8538461538461538
+T(modifier), Techno, 0.8307692307692307
+T(modifier), Late Night, 0.8192307692307692
+
+T(head), Earthy, 0.9
+T(head), Poignant, 0.8896551724137931
+T(head), Earnest, 0.8896551724137931
+T(head), Bittersweet, 0.8482758620689655
+T(head), Reflective, 0.8172413793103448
+
+
+
+Result : '1', '0', '1', '0', '0', '1', '1', '1', '0', '0', 0.006786638225141725

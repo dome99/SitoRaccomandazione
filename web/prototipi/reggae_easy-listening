@@ -1,0 +1,27 @@
+#Title composizione
+Title : reggae-easy-listening
+
+#Concetto Principale
+Head Concept Name : reggae
+
+#Concetto Modificatore
+Modifier Concept Name : easy-listening
+
+
+
+
+
+T(modifier), Dinner Ambiance, 0.9
+T(modifier), Amiable/Good-Natured, 0.8884615384615384
+T(modifier), Relaxation, 0.8653846153846154
+T(modifier), Soothing, 0.8653846153846154
+T(modifier), Sophisticated, 0.8538461538461539
+
+T(head), Summery, 0.9
+T(head), Roots Reggae, 0.8735294117647059
+T(head), Earnest, 0.8558823529411764
+T(head), Earthy, 0.8117647058823529
+T(head), Rousing, 0.8029411764705883
+
+
+Result : '1', '1', '0', '1', '0', '1', '1', '0', '0', '0', 0.005721756923901313

@@ -1,0 +1,27 @@
+#Title composizione
+Title : folk-vocal
+
+#Concetto Principale
+Head Concept Name : folk
+
+#Concetto Modificatore
+Modifier Concept Name : vocal
+
+
+modifier, Traditional Pop
+
+
+T(modifier), Vocal Pop, 0.8478260869565217
+T(modifier), Refined, 0.7630434782608696
+T(modifier), Sentimental, 0.7630434782608696
+T(modifier), Romantic, 0.75
+T(modifier), Sweet, 0.7434782608695653
+
+
+T(head), Earthy, 0.9
+T(head), Poignant, 0.8896551724137931
+T(head), Earnest, 0.8896551724137931
+T(head), Bittersweet, 0.8482758620689655
+T(head), Reflective, 0.8172413793103448
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.03371391586193342

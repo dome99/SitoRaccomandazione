@@ -1,0 +1,28 @@
+#Title composizione
+Title : classical-rap
+
+#Concetto Principale
+Head Concept Name : classical
+
+#Concetto Modificatore
+Modifier Concept Name : rap
+
+
+
+modifier, Brash
+
+
+T(modifier), Street-Smart, 0.864
+T(modifier), Confident, 0.8400000000000001
+T(modifier), Partying, 0.8400000000000001
+T(modifier), East Coast Rap, 0.804
+T(modifier), Swaggering, 0.804
+
+T(head), Sentimental, 0.9
+T(head), Confident, 0.9
+T(head), Classical Crossover, 0.8
+T(head), Melancholy, 0.8
+T(head), Sensual, 0.8
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.01517607496581119

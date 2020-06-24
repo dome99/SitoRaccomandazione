@@ -1,0 +1,27 @@
+#Title composizione
+Title : country-new-age
+
+#Concetto Principale
+Head Concept Name : country
+
+#Concetto Modificatore
+Modifier Concept Name : new-age
+
+
+
+
+
+T(modifier), Reflection, 0.9
+T(modifier), Soothing, 0.8892857142857142
+T(modifier), Introspection, 0.8892857142857142
+T(modifier), Hypnotic, 0.8785714285714286
+T(modifier), Reflective, 0.8785714285714286
+
+T(head), Traditional Country, 0.9
+T(head), Earthy, 0.890625
+T(head), Earnest, 0.8625
+T(head), Reflective, 0.84375
+T(head), Plaintive, 0.815625
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.0033321846618259723

@@ -1,0 +1,27 @@
+#Title composizione
+Title : reggae-new-age
+
+#Concetto Principale
+Head Concept Name : reggae
+
+#Concetto Modificatore
+Modifier Concept Name : new-age
+
+
+
+
+
+T(modifier), Reflection, 0.9
+T(modifier), Soothing, 0.8892857142857142
+T(modifier), Introspection, 0.8892857142857142
+T(modifier), Hypnotic, 0.8785714285714286
+T(modifier), Reflective, 0.8785714285714286
+
+T(head), Summery, 0.9
+T(head), Roots Reggae, 0.8735294117647059
+T(head), Earnest, 0.8558823529411764
+T(head), Earthy, 0.8117647058823529
+T(head), Rousing, 0.8029411764705883
+
+
+Result : '1', '1', '1', '0', '1', '1', '0', '0', '0', '0', 0.004620290216613462

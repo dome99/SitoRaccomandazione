@@ -1,0 +1,27 @@
+#Title composizione
+Title : easy-listening-pop-rock
+
+#Concetto Principale
+Head Concept Name : easy-listening
+
+#Concetto Modificatore
+Modifier Concept Name : pop-rock
+
+
+
+
+
+T(modifier), Rousing, 0.9
+T(modifier), Contemporary Pop/Rock, 0.8689655172413793
+T(modifier), Album Rock, 0.8172413793103448
+T(modifier), Confident, 0.8172413793103448
+T(modifier), Energetic, 0.8172413793103448
+
+T(head), Dinner Ambiance, 0.9
+T(head), Amiable/Good-Natured, 0.8884615384615384
+T(head), Relaxation, 0.8653846153846154
+T(head), Soothing, 0.8653846153846154
+T(head), Sophisticated, 0.8538461538461539
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '0', '1', '0', 0.006499409845503445

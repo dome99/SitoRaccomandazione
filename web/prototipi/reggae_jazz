@@ -1,0 +1,27 @@
+#Title composizione
+Title : reggae-jazz
+
+#Concetto Principale
+Head Concept Name : reggae
+
+#Concetto Modificatore
+Modifier Concept Name : jazz
+
+
+
+
+
+T(modifier), Sophisticated, 0.9
+T(modifier), Freewheeling, 0.8675675675675676
+T(modifier), Confident, 0.8432432432432433
+T(modifier), Amiable/Good-Natured, 0.8432432432432433
+T(modifier), Playful_mood, 0.8432432432432433
+
+T(head), Summery, 0.9
+T(head), Roots Reggae, 0.8735294117647059
+T(head), Earnest, 0.8558823529411764
+T(head), Earthy, 0.8117647058823529
+T(head), Rousing, 0.8029411764705883
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.0075068144710208635

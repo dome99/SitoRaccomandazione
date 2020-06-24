@@ -1,0 +1,24 @@
+#Title composizione
+Title : folk-country
+
+#Concetto Principale
+Head Concept Name : folk
+
+#Concetto Modificatore
+Modifier Concept Name : country
+
+T(modifier), Traditional Country, 0.9
+T(modifier), Earthy, 0.890625
+T(modifier), Earnest, 0.8625
+T(modifier), Reflective, 0.84375
+T(modifier), Plaintive, 0.815625
+
+T(head), Earthy, 0.9
+T(head), Poignant, 0.8896551724137931
+T(head), Earnest, 0.8896551724137931
+T(head), Bittersweet, 0.8482758620689655
+T(head), Reflective, 0.8172413793103448
+
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.006271632824935652

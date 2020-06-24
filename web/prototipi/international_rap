@@ -1,0 +1,28 @@
+#Title composizione
+Title : international-rap
+
+#Concetto Principale
+Head Concept Name : international
+
+#Concetto Modificatore
+Modifier Concept Name : rap
+
+
+
+modifier, Brash
+
+
+T(modifier), Street-Smart, 0.864
+T(modifier), Confident, 0.8400000000000001
+T(modifier), Partying, 0.8400000000000001
+T(modifier), East Coast Rap, 0.804
+T(modifier), Swaggering, 0.804
+
+T(head), Stylish, 0.9
+T(head), Boisterous, 0.9
+T(head), Exuberant, 0.9
+T(head), Yearning, 0.9
+T(head), European Folk, 0.6
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.02229953872527357

@@ -1,0 +1,27 @@
+#Title composizione
+Title : pop-rock-jazz
+
+#Concetto Principale
+Head Concept Name : pop-rock
+
+#Concetto Modificatore
+Modifier Concept Name : jazz
+
+
+
+
+
+T(modifier), Sophisticated, 0.9
+T(modifier), Freewheeling, 0.8675675675675676
+T(modifier), Confident, 0.8432432432432433
+T(modifier), Amiable/Good-Natured, 0.8432432432432433
+T(modifier), Playful_mood, 0.8432432432432433
+
+T(head), Rousing, 0.9
+T(head), Contemporary Pop/Rock, 0.8689655172413793
+T(head), Album Rock, 0.8172413793103448
+T(head), Confident, 0.8172413793103448
+T(head), Energetic, 0.8172413793103448
+
+
+Result : '1', '1', '0', '0', '1', '1', '1', '0', '0', '0', 0.00772377998355135

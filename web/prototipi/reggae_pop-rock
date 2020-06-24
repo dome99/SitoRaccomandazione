@@ -1,0 +1,27 @@
+#Title composizione
+Title : reggae-pop-rock
+
+#Concetto Principale
+Head Concept Name : reggae
+
+#Concetto Modificatore
+Modifier Concept Name : pop-rock
+
+
+
+
+
+T(modifier), Rousing, 0.9
+T(modifier), Contemporary Pop/Rock, 0.8689655172413793
+T(modifier), Album Rock, 0.8172413793103448
+T(modifier), Confident, 0.8172413793103448
+T(modifier), Energetic, 0.8172413793103448
+
+T(head), Summery, 0.9
+T(head), Roots Reggae, 0.8735294117647059
+T(head), Earnest, 0.8558823529411764
+T(head), Earthy, 0.8117647058823529
+T(head), Rousing, 0.8029411764705883
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.011915430111067082

@@ -1,0 +1,28 @@
+#Title composizione
+Title : vocal-stage-screen
+
+#Concetto Principale
+Head Concept Name : vocal
+
+#Concetto Modificatore
+Modifier Concept Name : stage-screen
+
+head, Traditional Pop
+
+
+
+
+T(modifier), Soundtracks, 0.9
+T(modifier), Dramatic, 0.875
+T(modifier), Original Score, 0.8500000000000001
+T(modifier), Theatrical, 0.825
+T(modifier), Film Music, 0.7999999999999999
+
+T(head), Vocal Pop, 0.8478260869565217
+T(head), Refined, 0.7630434782608696
+T(head), Sentimental, 0.7630434782608696
+T(head), Romantic, 0.75
+T(head), Sweet, 0.7434782608695653
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.03371799365124274

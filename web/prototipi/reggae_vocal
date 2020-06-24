@@ -1,0 +1,28 @@
+#Title composizione
+Title : reggae-vocal
+
+#Concetto Principale
+Head Concept Name : reggae
+
+#Concetto Modificatore
+Modifier Concept Name : vocal
+
+
+
+modifier, Traditional Pop
+
+
+T(modifier), Vocal Pop, 0.8478260869565217
+T(modifier), Refined, 0.7630434782608696
+T(modifier), Sentimental, 0.7630434782608696
+T(modifier), Romantic, 0.75
+T(modifier), Sweet, 0.7434782608695653
+
+T(head), Summery, 0.9
+T(head), Roots Reggae, 0.8735294117647059
+T(head), Earnest, 0.8558823529411764
+T(head), Earthy, 0.8117647058823529
+T(head), Rousing, 0.8029411764705883
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.032860067900000914

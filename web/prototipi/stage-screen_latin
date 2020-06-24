@@ -1,0 +1,27 @@
+#Title composizione
+Title : stage-screen-latin
+
+#Concetto Principale
+Head Concept Name : stage-screen
+
+#Concetto Modificatore
+Modifier Concept Name : latin
+
+
+
+
+
+T(modifier), Rousing, 0.9
+T(modifier), Romantic, 0.9
+T(modifier), Latin Pop, 0.75
+T(modifier), Celebration, 0.75
+T(modifier), Yearning, 0.75
+
+T(head), Soundtracks, 0.9
+T(head), Dramatic, 0.875
+T(head), Original Score, 0.8500000000000001
+T(head), Theatrical, 0.825
+T(head), Film Music, 0.7999999999999999
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.029651220703125022

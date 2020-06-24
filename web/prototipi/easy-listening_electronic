@@ -1,0 +1,27 @@
+#Title composizione
+Title : easy-listening-electronic
+
+#Concetto Principale
+Head Concept Name : easy-listening
+
+#Concetto Modificatore
+Modifier Concept Name : electronic
+
+
+
+
+
+T(modifier), Hypnotic, 0.9
+T(modifier), Electronica, 0.8538461538461538
+T(modifier), Trippy, 0.8538461538461538
+T(modifier), Techno, 0.8307692307692307
+T(modifier), Late Night, 0.8192307692307692
+
+T(head), Dinner Ambiance, 0.9
+T(head), Amiable/Good-Natured, 0.8884615384615384
+T(head), Relaxation, 0.8653846153846154
+T(head), Soothing, 0.8653846153846154
+T(head), Sophisticated, 0.8538461538461539
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.005147265564245903

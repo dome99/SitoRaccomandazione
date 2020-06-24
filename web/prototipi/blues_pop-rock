@@ -1,0 +1,28 @@
+#Title composizione
+Title : blues-pop-rock
+
+#Concetto Principale
+Head Concept Name : blues
+
+#Concetto Modificatore
+Modifier Concept Name : pop-rock
+
+head, Regional Blues
+
+
+
+
+T(modifier), Rousing, 0.9
+T(modifier), Contemporary Pop/Rock, 0.8689655172413793
+T(modifier), Album Rock, 0.8172413793103448
+T(modifier), Confident, 0.8172413793103448
+T(modifier), Energetic, 0.8172413793103448
+
+T(head), Earthy, 0.8615384615384616
+T(head), Gritty, 0.8615384615384616
+T(head), Passionate, 0.8153846153846154
+T(head), Late Night, 0.8153846153846154
+T(head), Hanging Out, 0.7615384615384615
+
+
+Result : '1', '1', '0', '0', '1', '1', '1', '0', '0', '0', 0.012878183377824134

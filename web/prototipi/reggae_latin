@@ -1,0 +1,27 @@
+#Title composizione
+Title : reggae-latin
+
+#Concetto Principale
+Head Concept Name : reggae
+
+#Concetto Modificatore
+Modifier Concept Name : latin
+
+
+
+
+
+T(modifier), Rousing, 0.9
+T(modifier), Romantic, 0.9
+T(modifier), Latin Pop, 0.75
+T(modifier), Celebration, 0.75
+T(modifier), Yearning, 0.75
+
+T(head), Summery, 0.9
+T(head), Roots Reggae, 0.8735294117647059
+T(head), Earnest, 0.8558823529411764
+T(head), Earthy, 0.8117647058823529
+T(head), Rousing, 0.8029411764705883
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.03158901624292094

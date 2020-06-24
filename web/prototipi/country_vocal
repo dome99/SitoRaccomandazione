@@ -1,0 +1,28 @@
+#Title composizione
+Title : country-vocal
+
+#Concetto Principale
+Head Concept Name : country
+
+#Concetto Modificatore
+Modifier Concept Name : vocal
+
+
+
+modifier, Traditional Pop
+
+
+T(modifier), Vocal Pop, 0.8478260869565217
+T(modifier), Refined, 0.7630434782608696
+T(modifier), Sentimental, 0.7630434782608696
+T(modifier), Romantic, 0.75
+T(modifier), Sweet, 0.7434782608695653
+
+T(head), Traditional Country, 0.9
+T(head), Earthy, 0.890625
+T(head), Earnest, 0.8625
+T(head), Reflective, 0.84375
+T(head), Plaintive, 0.815625
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.032833759004251895

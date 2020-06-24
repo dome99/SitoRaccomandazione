@@ -1,0 +1,27 @@
+#Title composizione
+Title : country-jazz
+
+#Concetto Principale
+Head Concept Name : country
+
+#Concetto Modificatore
+Modifier Concept Name : jazz
+
+
+
+
+
+T(modifier), Sophisticated, 0.9
+T(modifier), Freewheeling, 0.8675675675675676
+T(modifier), Confident, 0.8432432432432433
+T(modifier), Amiable/Good-Natured, 0.8432432432432433
+T(modifier), Playful_mood, 0.8432432432432433
+
+T(head), Traditional Country, 0.9
+T(head), Earthy, 0.890625
+T(head), Earnest, 0.8625
+T(head), Reflective, 0.84375
+T(head), Plaintive, 0.815625
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.0059902256229181616

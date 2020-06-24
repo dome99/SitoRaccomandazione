@@ -1,0 +1,25 @@
+#Title composizione
+Title : reggae-folk
+
+#Concetto Principale
+Head Concept Name : reggae
+
+#Concetto Modificatore
+Modifier Concept Name : folk
+
+
+
+T(modifier), Earthy, 0.9
+T(modifier), Poignant, 0.8896551724137931
+T(modifier), Earnest, 0.8896551724137931
+T(modifier), Bittersweet, 0.8482758620689655
+T(modifier), Reflective, 0.8172413793103448
+
+T(head), Summery, 0.9
+T(head), Roots Reggae, 0.8735294117647059
+T(head), Earnest, 0.8558823529411764
+T(head), Earthy, 0.8117647058823529
+T(head), Rousing, 0.8029411764705883
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.008301424514002995

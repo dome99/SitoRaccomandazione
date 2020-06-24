@@ -1,0 +1,27 @@
+#Title composizione
+Title : electronic-classical
+
+#Concetto Principale
+Head Concept Name : electronic
+
+#Concetto Modificatore
+Modifier Concept Name : classical
+
+
+
+
+
+T(modifier), Sentimental, 0.9
+T(modifier), Confident, 0.9
+T(modifier), Classical Crossover, 0.8
+T(modifier), Melancholy, 0.8
+T(modifier), Sensual, 0.8
+
+T(head), Hypnotic, 0.9
+T(head), Electronica, 0.8538461538461538
+T(head), Trippy, 0.8538461538461538
+T(head), Techno, 0.8307692307692307
+T(head), Late Night, 0.8192307692307692
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.01300710382129477

@@ -1,0 +1,29 @@
+#Title composizione
+Title : vocal-blues
+
+#Concetto Principale
+Head Concept Name : vocal
+
+#Concetto Modificatore
+Modifier Concept Name : blues
+
+head, Traditional Pop
+
+
+modifier, Regional Blues
+
+
+T(modifier), Earthy, 0.8615384615384616
+T(modifier), Gritty, 0.8615384615384616
+T(modifier), Passionate, 0.8153846153846154
+T(modifier), Late Night, 0.8153846153846154
+T(modifier), Hanging Out, 0.7615384615384615
+
+T(head), Vocal Pop, 0.8478260869565217
+T(head), Refined, 0.7630434782608696
+T(head), Sentimental, 0.7630434782608696
+T(head), Romantic, 0.75
+T(head), Sweet, 0.7434782608695653
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.035925349373110156

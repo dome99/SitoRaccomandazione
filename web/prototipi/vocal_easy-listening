@@ -1,0 +1,28 @@
+#Title composizione
+Title : vocal-easy-listening
+
+#Concetto Principale
+Head Concept Name : vocal
+
+#Concetto Modificatore
+Modifier Concept Name : easy-listening
+
+head, Traditional Pop
+
+
+
+
+T(modifier), Dinner Ambiance, 0.9
+T(modifier), Amiable/Good-Natured, 0.8884615384615384
+T(modifier), Relaxation, 0.8653846153846154
+T(modifier), Soothing, 0.8653846153846154
+T(modifier), Sophisticated, 0.8538461538461539
+
+T(head), Vocal Pop, 0.8478260869565217
+T(head), Refined, 0.7630434782608696
+T(head), Sentimental, 0.7630434782608696
+T(head), Romantic, 0.75
+T(head), Sweet, 0.7434782608695653
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.02671886603351677

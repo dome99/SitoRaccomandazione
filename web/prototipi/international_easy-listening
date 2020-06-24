@@ -1,0 +1,27 @@
+#Title composizione
+Title : international-easy-listening
+
+#Concetto Principale
+Head Concept Name : international
+
+#Concetto Modificatore
+Modifier Concept Name : easy-listening
+
+
+
+
+
+T(modifier), Dinner Ambiance, 0.9
+T(modifier), Amiable/Good-Natured, 0.8884615384615384
+T(modifier), Relaxation, 0.8653846153846154
+T(modifier), Soothing, 0.8653846153846154
+T(modifier), Sophisticated, 0.8538461538461539
+
+T(head), Stylish, 0.9
+T(head), Boisterous, 0.9
+T(head), Exuberant, 0.9
+T(head), Yearning, 0.9
+T(head), European Folk, 0.6
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.0069774515554427334

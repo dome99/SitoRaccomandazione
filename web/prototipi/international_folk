@@ -1,0 +1,27 @@
+#Title composizione
+Title : international-folk
+
+#Concetto Principale
+Head Concept Name : international
+
+#Concetto Modificatore
+Modifier Concept Name : folk
+
+
+
+T(modifier), Earthy, 0.9
+T(modifier), Poignant, 0.8896551724137931
+T(modifier), Earnest, 0.8896551724137931
+T(modifier), Bittersweet, 0.8482758620689655
+T(modifier), Reflective, 0.8172413793103448
+
+
+
+T(head), Stylish, 0.9
+T(head), Boisterous, 0.9
+T(head), Exuberant, 0.9
+T(head), Yearning, 0.9
+T(head), European Folk, 0.6
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.007974602593990226

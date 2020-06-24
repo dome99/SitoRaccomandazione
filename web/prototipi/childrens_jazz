@@ -1,0 +1,39 @@
+#Title composizione
+Title : childrens-jazz
+
+#Concetto Principale
+Head Concept Name : childrens
+
+#Concetto Modificatore
+Modifier Concept Name : jazz
+
+head, Sing-Alongs
+head, Amiable/Good-Natured
+head, Cheerful
+head, Playful_mood
+head, Fun
+head, Hanging Out
+head, Playful
+head, -Sex
+head, -Brash
+head, -Cool & Cocky
+head, -Introspection
+head, -Sophisticated
+
+
+
+
+T(modifier), Sophisticated, 0.9
+T(modifier), Freewheeling, 0.8675675675675676
+T(modifier), Confident, 0.8432432432432433
+T(modifier), Amiable/Good-Natured, 0.8432432432432433
+T(modifier), Playful_mood, 0.8432432432432433
+
+T(head), Children's Folk, 0.7857142857142857
+T(head), Family Gatherings, 0.7714285714285715
+T(head), Whimsical, 0.7571428571428571
+T(head), Laid-Back/Mellow, 0.7428571428571429
+T(head), Energetic, 0.7285714285714286
+
+
+Result : '0', '1', '1', '1', '1', '1', '0', '0', '0', '0', 0.015835413842606248

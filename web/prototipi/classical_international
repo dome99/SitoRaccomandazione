@@ -1,0 +1,27 @@
+#Title composizione
+Title : classical-international
+
+#Concetto Principale
+Head Concept Name : classical
+
+#Concetto Modificatore
+Modifier Concept Name : international
+
+
+
+
+
+T(modifier), Stylish, 0.9
+T(modifier), Boisterous, 0.9
+T(modifier), Exuberant, 0.9
+T(modifier), Yearning, 0.9
+T(modifier), European Folk, 0.6
+
+T(head), Sentimental, 0.9
+T(head), Confident, 0.9
+T(head), Classical Crossover, 0.8
+T(head), Melancholy, 0.8
+T(head), Sensual, 0.8
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.01889567999999999

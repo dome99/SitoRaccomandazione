@@ -1,0 +1,27 @@
+#Title composizione
+Title : stage-screen-international
+
+#Concetto Principale
+Head Concept Name : stage-screen
+
+#Concetto Modificatore
+Modifier Concept Name : international
+
+
+
+
+
+T(modifier), Stylish, 0.9
+T(modifier), Boisterous, 0.9
+T(modifier), Exuberant, 0.9
+T(modifier), Yearning, 0.9
+T(modifier), European Folk, 0.6
+
+T(head), Soundtracks, 0.9
+T(head), Dramatic, 0.875
+T(head), Original Score, 0.8500000000000001
+T(head), Theatrical, 0.825
+T(head), Film Music, 0.7999999999999999
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.015500362500000003

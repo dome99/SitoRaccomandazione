@@ -1,0 +1,24 @@
+#Title composizione
+Title : folk-latin
+
+#Concetto Principale
+Head Concept Name : folk
+
+#Concetto Modificatore
+Modifier Concept Name : latin
+
+T(modifier), Rousing, 0.9
+T(modifier), Romantic, 0.9
+T(modifier), Latin Pop, 0.75
+T(modifier), Celebration, 0.75
+T(modifier), Yearning, 0.75
+
+T(head), Earthy, 0.9
+T(head), Poignant, 0.8896551724137931
+T(head), Earnest, 0.8896551724137931
+T(head), Bittersweet, 0.8482758620689655
+T(head), Reflective, 0.8172413793103448
+
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '1', '0', '0', 0.024999050897026785

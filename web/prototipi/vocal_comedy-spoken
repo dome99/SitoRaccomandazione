@@ -1,0 +1,29 @@
+#Title composizione
+Title : vocal-comedy-spoken
+
+#Concetto Principale
+Head Concept Name : vocal
+
+#Concetto Modificatore
+Modifier Concept Name : comedy-spoken
+
+head, Traditional Pop
+
+
+modifier, Comedy
+
+
+T(modifier), Playful_mood, 0.868421052631579
+T(modifier), Humorous, 0.8526315789473684
+T(modifier), Playful, 0.8526315789473684
+T(modifier), The Creative Side, 0.8368421052631579
+T(modifier), Irreverent, 0.8210526315789474
+
+T(head), Vocal Pop, 0.8478260869565217
+T(head), Refined, 0.7630434782608696
+T(head), Sentimental, 0.7630434782608696
+T(head), Romantic, 0.75
+T(head), Sweet, 0.7434782608695653
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.02886225783552373

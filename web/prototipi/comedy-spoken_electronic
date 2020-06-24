@@ -1,0 +1,28 @@
+#Title composizione
+Title : comedy-spoken-electronic
+
+#Concetto Principale
+Head Concept Name : comedy-spoken
+
+#Concetto Modificatore
+Modifier Concept Name : electronic
+
+head, Comedy
+
+
+
+
+T(modifier), Hypnotic, 0.9
+T(modifier), Electronica, 0.8538461538461538
+T(modifier), Trippy, 0.8538461538461538
+T(modifier), Techno, 0.8307692307692307
+T(modifier), Late Night, 0.8192307692307692
+
+T(head), Playful_mood, 0.868421052631579
+T(head), Humorous, 0.8526315789473684
+T(head), Playful, 0.8526315789473684
+T(head), The Creative Side, 0.8368421052631579
+T(head), Irreverent, 0.8210526315789474
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.006394921196175768

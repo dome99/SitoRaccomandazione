@@ -1,0 +1,27 @@
+#Title composizione
+Title : international-avant-grade
+
+#Concetto Principale
+Head Concept Name : international
+
+#Concetto Modificatore
+Modifier Concept Name : avant-grade
+
+
+
+
+
+T(modifier), The Creative Side, 0.9
+T(modifier), Cerebral, 0.84
+T(modifier), Uncompromising, 0.78
+T(modifier), Provocative, 0.78
+T(modifier), Revolutionary, 0.78
+
+T(head), Stylish, 0.9
+T(head), Boisterous, 0.9
+T(head), Exuberant, 0.9
+T(head), Yearning, 0.9
+T(head), European Folk, 0.6
+
+
+Result : '1', '0', '0', '0', '0', '1', '1', '1', '1', '0', 0.040240240127999996

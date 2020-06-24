@@ -1,0 +1,29 @@
+#Title composizione
+Title : vocal-rap
+
+#Concetto Principale
+Head Concept Name : vocal
+
+#Concetto Modificatore
+Modifier Concept Name : rap
+
+head, Traditional Pop
+
+
+modifier, Brash
+
+
+T(modifier), Street-Smart, 0.864
+T(modifier), Confident, 0.8400000000000001
+T(modifier), Partying, 0.8400000000000001
+T(modifier), East Coast Rap, 0.804
+T(modifier), Swaggering, 0.804
+
+T(head), Vocal Pop, 0.8478260869565217
+T(head), Refined, 0.7630434782608696
+T(head), Sentimental, 0.7630434782608696
+T(head), Romantic, 0.75
+T(head), Sweet, 0.7434782608695653
+
+
+Result : '1', '1', '1', '1', '0', '1', '0', '0', '0', '0', 0.02932869416812005

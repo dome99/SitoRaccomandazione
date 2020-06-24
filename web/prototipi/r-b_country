@@ -1,0 +1,27 @@
+#Title composizione
+Title : r-b-country
+
+#Concetto Principale
+Head Concept Name : r-b
+
+#Concetto Modificatore
+Modifier Concept Name : country
+
+
+
+
+
+T(modifier), Traditional Country, 0.9
+T(modifier), Earthy, 0.890625
+T(modifier), Earnest, 0.8625
+T(modifier), Reflective, 0.84375
+T(modifier), Plaintive, 0.815625
+
+T(head), Soul, 0.9
+T(head), Playful_mood, 0.855
+T(head), Energetic, 0.855
+T(head), Partying, 0.855
+T(head), Warm, 0.855
+
+
+Result : '1', '1', '1', '0', '0', '1', '1', '0', '0', '0', 0.004672305000652851

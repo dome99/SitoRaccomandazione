@@ -1,0 +1,27 @@
+#Title composizione
+Title : easy-listening-classical
+
+#Concetto Principale
+Head Concept Name : easy-listening
+
+#Concetto Modificatore
+Modifier Concept Name : classical
+
+
+
+
+
+T(modifier), Sentimental, 0.9
+T(modifier), Confident, 0.9
+T(modifier), Classical Crossover, 0.8
+T(modifier), Melancholy, 0.8
+T(modifier), Sensual, 0.8
+
+T(head), Dinner Ambiance, 0.9
+T(head), Amiable/Good-Natured, 0.8884615384615384
+T(head), Relaxation, 0.8653846153846154
+T(head), Soothing, 0.8653846153846154
+T(head), Sophisticated, 0.8538461538461539
+
+
+Result : '1', '1', '0', '0', '0', '1', '1', '0', '1', '0', 0.008822065185042527
