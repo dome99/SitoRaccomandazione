@@ -3,13 +3,6 @@
 <%@ page import="java.nio.file.Paths" %>
 <%@ page import="java.util.*" %>
 <%@ page import="classes.*" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: domen
-  Date: 16/06/2020
-  Time: 15:28
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
@@ -27,7 +20,7 @@
   </head>
   <body>
   <%!
-
+      //Generazione di una lista contenente tutti i generi di partenza
       public String[] getFilesList(String path){
           File folder = new File(path + "/cocos_genres");
           File[] listOfFiles = folder.listFiles();
@@ -45,11 +38,14 @@
       }
   %>
   <%
-      String PROJECT_PATH = application.getRealPath("/").replace('\\', '/');
-      String genereA = request.getParameter("genereA");
-      String genereB = request.getParameter("genereB");
+
+      String PROJECT_PATH = application.getRealPath("/").replace('\\', '/'); //ottenimento del path del progetto
+      String genereA = request.getParameter("genereA"); //parametro del primo genere di input
+      String genereB = request.getParameter("genereB"); //parametro del secondo genere di input
 
       String[] files= getFilesList(PROJECT_PATH);
+
+      //Creazione delle due select HTML
       String defaultOpt="<option value=\"\" selected disabled>Seleziona un valore</option>";
       String optionsA = defaultOpt;
       String optionsB = defaultOpt;
@@ -114,11 +110,15 @@
 
                         if(Files.exists(Paths.get(PROJECT_PATH + "/prototipi/" + prototipo))){
                             Recommender r = new Recommender(prototipo, PROJECT_PATH);
+
+                            //chiamata per ottenere la graduatoria
                             sortedGraduatoria = r.getGraduatoria();
 
                             List<String> app = new ArrayList<String>(sortedGraduatoria.keySet());
                             int i=0;
                             double max_score = sortedGraduatoria.get(app.get(0));
+
+                            //Generazione della tabella con i risultati
                             for(i=0; i<app.size() && !(i >= r.getMAX()) && !(sortedGraduatoria.get(app.get(i))==0.0); i++){
                                 table += "<tr><th scope=\"row\">" + (i+1) + "</th>";
 
@@ -143,12 +143,6 @@
                                         + "+" + nameAndArtist[1].replace(" ", "+") + "\">" +
                                         "<i class=\"material-icons\">contactless</i>" +
                                         "</a></td>";
-
-
-
-                                /*else {
-                                    out.println("Classificate " + i + " canzoni su " + r.getSomma() + " (" + (100*i/r.getSomma()) + "%)");
-                                }*/
                             }
 
                             out.print(table);

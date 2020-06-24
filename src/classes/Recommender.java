@@ -4,7 +4,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -13,31 +12,32 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class Recommender {
-    private final String PROJECT_PATH;
+    private final String PROJECT_PATH; //Path del progetto
 
-    private String title;
-    private String headConcept;
-    private String modifierConcept;
-    private List<String> tipicalAttrs = new ArrayList<>();
-    private List<Pair<String, Double>> attrs  = new ArrayList<>();
+    private String title; //Nome della combinazione
+    private String headConcept; //Nome del genere HEAD
+    private String modifierConcept; //Nome del genere MODIFIER
+    private List<String> rigidProperties = new ArrayList<>(); //Lista delle proprietà rigide
+    private List<Pair<String, Double>> typicalProperties  = new ArrayList<>(); //Lista delle proprietà tipiche
 
-    private List<String> propList = new ArrayList<>();
-    private List<String> notPropList = new ArrayList<>();
+    private List<String> propList = new ArrayList<>(); //Lista delle proprietà da tenere in considerazione al fine della raccomandazione
+    private List<String> notPropList = new ArrayList<>(); //Lista delle proprietà rigide negate
 
-    private final int MAX = 30;
+    private final int MAX = 30; //Numero massimo delle canzoni da mostrare dopo la riclassificazione
 
-    private Map<String, Double> graduatoria= new HashMap<>();
-    private Map<String, Double> sortedGraduatoria;
+    private final Map<String, Double> graduatoria= new HashMap<>(); //Graduatoria delle canzoni riclassificate
+    private Map<String, Double> sortedGraduatoria; //Graduatoria riordinata
 
     private int somma = 0;
 
 
     public Recommender(String fileName, String path){
         PROJECT_PATH = path;
-        System.out.println(PROJECT_PATH);
         readAttributes(fileName);
     }
 
+
+    //Lettura delle proprietà del file specificato come prototipo
     private void readAttributes(String fileName){
         try (BufferedReader br = new BufferedReader(new FileReader(PROJECT_PATH + "/prototipi/"+fileName))) {
             String line;
@@ -52,18 +52,18 @@ public class Recommender {
                         modifierConcept = line.split(":")[1].strip();
                     }else if(line.contains("T(head)") || line.contains("T(modifier)")){
                         String[] array=line.split(",");
-                        attrs.add(new Pair<>(array[1].strip(), Double.parseDouble(array[2].strip())));
+                        typicalProperties.add(new Pair<>(array[1].strip(), Double.parseDouble(array[2].strip())));
                     }else if(line.contains("head") || line.contains("modifier")){
-                        tipicalAttrs.add(line.split(",")[1].strip());
+                        rigidProperties.add(line.split(",")[1].strip());
                     }else if(line.contains("Result")){
                         String[] propB=line.split(":")[1].strip().split(",");
                         for(int i=0; i<propB.length-1; i++){
                             if(propB[i].strip().equals("'1'")){
-                                propList.add(attrs.get(i).getAttr());
+                                propList.add(typicalProperties.get(i).getAttr());
                             }
                         }
 
-                        for(String s: tipicalAttrs){
+                        for(String s: rigidProperties){
                             if(!(s.charAt(0) == '-')){
                                 propList.add(s);
                             }else {
@@ -80,10 +80,10 @@ public class Recommender {
 
     public Map<String, Double> getGraduatoria() {
         elaboraGraduatoria();
-
         return sortedGraduatoria;
     }
 
+    //Elaborazione della graduatoria
     private void elaboraGraduatoria(){
         somma = 0;
         try {
@@ -176,20 +176,20 @@ public class Recommender {
         return somma;
     }
 
-    public List<String> getTipicalAttrs() {
-        return tipicalAttrs;
+    public List<String> getrigidProperties() {
+        return rigidProperties;
     }
 
-    public void setTipicalAttrs(List<String> tipicalAttrs) {
-        this.tipicalAttrs = tipicalAttrs;
+    public void setrigidProperties(List<String> rigidProperties) {
+        this.rigidProperties = rigidProperties;
     }
 
-    public List<Pair<String, Double>> getAttrs() {
-        return attrs;
+    public List<Pair<String, Double>> gettypicalProperties() {
+        return typicalProperties;
     }
 
-    public void setAttrs(List<Pair<String, Double>> attrs) {
-        this.attrs = attrs;
+    public void settypicalProperties(List<Pair<String, Double>> typicalProperties) {
+        this.typicalProperties = typicalProperties;
     }
 
     public List<String> getPropList() {
@@ -208,6 +208,7 @@ public class Recommender {
         this.notPropList = notPropList;
     }
 
+    //Metodo utilizzato per riordinare l'HashMap in ordine decrescente sull'attributo value
     public LinkedHashMap<String, Double> sortHashMapByValues(Map<String, Double> passedMap) {
         List<String> mapKeys = new ArrayList<>(passedMap.keySet());
         List<Double> mapValues = new ArrayList<>(passedMap.values());
