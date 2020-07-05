@@ -102,12 +102,6 @@ public class Recommender {
                 if(!graduatoria.containsKey(fileName)){
                     graduatoria.put(fileName, 0.0);
 
-                    for (String s: propList){
-                        if(songs.getJSONObject(i).getJSONArray("attributes").toString().contains(s)){
-                            graduatoria.replace(fileName, 0.1);
-                        }
-                    }
-
                     if(Files.exists(Paths.get(PROJECT_PATH + "/WEB-INF/classes/songs/" + fileName.replace("!-!-!", "-") + ".txt"))){
                         try (BufferedReader br = new BufferedReader(new FileReader(PROJECT_PATH + "/WEB-INF/classes/songs/" +
                                 fileName.replace("!-!-!", "-") + ".txt"))) {
